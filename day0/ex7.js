@@ -10,7 +10,12 @@ switch (operation) {
         total = Number(num1) - Number(num2)
         break;
     case "/":
-        total = Number(num1) / Number(num2)
+        if (num2 == 0) {
+            console.log("division not allowed")
+        } else {
+
+            total = Number(num1) / Number(num2)
+        }
         break;
     case "*":
         total = Number(num1) * Number(num2)

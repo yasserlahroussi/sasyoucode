@@ -1,6 +1,7 @@
-let num1 = 23;
-let num2 = 24;
-let operation = "-";
+const prompt = require('prompt-sync')();
+let num1 = prompt(" entrer la premier : ");
+let num2 = prompt("entre la deuxieme valeur : ");
+let operation = prompt("entre le symbole de operation ( +, *, /, -) :");
 let total = 0;
 switch (operation) {
     case '+':

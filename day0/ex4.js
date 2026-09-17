@@ -8,5 +8,5 @@ if (score >= 90 && score <= 100) {
 } else if (score < 70) {
     console.log("F")
 } else {
-    console.log("eroor")
+    console.log("valeur supperieur a 100")
 }

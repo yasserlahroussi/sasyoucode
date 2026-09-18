@@ -1,4 +1,4 @@
-for (i = 1; i <= 50; i++) {
+for (let i = 1; i <= 50; i++) {
     if (i % 3 === 0) {
         console.log(`${i} est fizz`)
     } else if (i % 5 === 0) {

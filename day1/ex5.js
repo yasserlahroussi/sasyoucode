@@ -10,7 +10,7 @@ for (let i = 0; i < str.length; i++) {
     } else if (str[i] == "A" || str[i] == "E" || str[i] == "I" || str[i] == "O" || str[i] == "U") {
         count1++
     } else {
-        console.log("eror hhh ")
+
     }
 }
 count2 = count + count1
